@@ -28,14 +28,16 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
-    <div class="container">
+    <div class="description">
       <!-- Timeblocks go here -->
-      <section class="task-list-wrapper">
-        <h2 class="list-title">Tasks To Do</h2>
-        <ul class="task-list">
-          <li class="task-item">A task is going to be added soon!</li>
+        <ul class="time-block">
+          <li class="description"> 
+            <form action="/action_page.php" method="post">
+              <input type="text" name="textarea">
+              <button class="saveBtn" id="saveTask">Save</button>
+            </form>
+          </li>
         </ul>
-      </section>
     </div>
     <script type="text/javascipt" src="script.js"></script>
   </body>
